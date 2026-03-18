@@ -1,0 +1,71 @@
+/* MODIF: Global CSS — Cyber dark mode base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    background-color: #0B1120;
+  }
+
+  body {
+    @apply bg-cyber-bg text-slate-50 font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-cyan-500/30 text-cyan-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0B1120;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-cyan-600;
+  }
+}
+
+@layer components {
+  /* Neon glow text utility */
+  .text-glow-cyan {
+    text-shadow: 0 0 20px rgba(6, 182, 212, 0.6), 0 0 40px rgba(6, 182, 212, 0.3);
+  }
+
+  /* Glassmorphism card */
+  .glass-card {
+    @apply bg-slate-900/60 border border-slate-800 backdrop-blur-sm;
+  }
+
+  /* Section label */
+  .section-label {
+    @apply text-xs font-mono text-cyan-400 uppercase tracking-[0.3em] mb-2;
+  }
+
+  /* Section title */
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-slate-50 mb-4;
+  }
+
+  /* Cyber button (primary) */
+  .btn-cyber {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm
+           bg-cyan-500 text-slate-950 transition-all duration-200
+           hover:bg-cyan-400 hover:shadow-cyan-glow focus:outline-none focus:ring-2 focus:ring-cyan-500/50;
+  }
+
+  /* Cyber button (ghost) */
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm
+           border border-slate-700 text-slate-300 transition-all duration-200
+           hover:border-cyan-500/60 hover:text-cyan-400 focus:outline-none;
+  }
+}
