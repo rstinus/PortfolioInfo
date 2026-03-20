@@ -82,24 +82,23 @@ const highlights = [
             <div class="overflow-x-auto">
               <pre class="text-left whitespace-pre"><code><span class="text-blue-400">package</span> <span class="text-slate-300">main;</span>
 
-<span class="text-blue-400">type</span> <span class="text-cyan-400">Developpeur</span> <span class="text-blue-400">struct</span>
+<span class="text-blue-400">public</span> <span class="text-cyan-400">class</span> <span class="text-blue-400">Developpeur()</span>
 <span class="text-slate-400">{</span>
-    <span class="text-emerald-400">string</span>   <span class="text-slate-300">Nom</span>
-    <span class="text-emerald-400">string</span>   <span class="text-slate-300">Universite</span>
-    <span class="text-emerald-400">int</span>      <span class="text-slate-300">Annee</span>
-    <span class="text-emerald-400">string</span><span class="text-blue-400">[]</span> <span class="text-slate-300">Interets</span>
-<span class="text-slate-400">}</span>
+    <span class="text-emerald-400">String</span>   <span class="text-slate-300">nom;</span>
+    <span class="text-emerald-400">String</span>   <span class="text-slate-300">ecole;</span>
+    <span class="text-emerald-400">int</span>      <span class="text-slate-300">annee;</span>
+    <span class="text-emerald-400">String</span><span class="text-blue-400">[]</span> <span class="text-slate-300">interets;</span>
 
-<span class="text-blue-400">var</span> <span class="text-slate-300">moi</span> = <span class="text-cyan-400">Developpeur</span>
-<span class="text-slate-400">{</span>
-    <span class="text-slate-300">Nom</span><span class="text-slate-400">:</span>        <span class="text-yellow-300">"Rémy STINUS"</span>,
-    <span class="text-slate-300">Universite</span><span class="text-slate-400">:</span> <span class="text-yellow-300">"IUT d'Orsay"</span>,
-    <span class="text-slate-300">Annee</span><span class="text-slate-400">:</span>      <span class="text-purple-400">2</span>,
-    <span class="text-slate-300">Interets</span><span class="text-slate-400">:</span>  <span class="text-blue-400">[]</span><span class="text-emerald-400">string</span><span class="text-slate-400">{</span>
+  <span class="text-blue-400">public</span> <span class="text-slate-300">void</span> <span class="text-cyan-400">Developpeur()</span> <span class="text-slate-400">{</span>
+    <span class="text-slate-300">this.nom</span><span class="text-slate-400">:</span>        <span class="text-yellow-300">"Rémy STINUS"</span>,
+    <span class="text-slate-300">this.ecole</span><span class="text-slate-400">:</span> <span class="text-yellow-300">"IUT d'Orsay"</span>,
+    <span class="text-slate-300">this.annee</span><span class="text-slate-400">:</span>      <span class="text-purple-400">2</span>,
+    <span class="text-slate-300">this.interets</span><span class="text-slate-400">:</span>  <span class="text-slate-400">{</span>
         <span class="text-yellow-300">"Cybersécurité"</span>,
-        <span class="text-yellow-300">"Systèmes"</span>,
-        <span class="text-yellow-300">"Open-Source"</span>,
-    <span class="text-slate-400">},</span>
+        <span class="text-yellow-300">"Système"</span>,
+        <span class="text-yellow-300">"Développement"</span>,
+    <span class="text-slate-400">}</span>
+  <span class="text-slate-400">}</span>
 <span class="text-slate-400">}</span></code></pre>
             </div>
 

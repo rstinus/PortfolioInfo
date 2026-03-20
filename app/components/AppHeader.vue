@@ -47,7 +47,7 @@ onMounted(() => {
           </a>
 
           <a
-            href="/cv.pdf"
+            href="/CV.pdf"
             download
             class="btn-cyber ml-2 sm:ml-4 text-xs sm:text-sm"
             aria-label="Télécharger le CV"

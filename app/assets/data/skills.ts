@@ -38,7 +38,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'SQL / MySQL', icon: 'devicon:mysql', level: 80 },
       { name: 'Linux / Windows', icon: 'mdi:linux', level: 85 },
       { name: 'Architecture Réseau', icon: 'mdi:lan', level: 75 },
-      { name: 'Architecture Système', icon: 'mdi:desktop-classic', level: 60 },
+      { name: 'Architecture Système', icon: 'mdi:terminal', level: 60 },
     ],
   },
   {
