@@ -1,4 +1,4 @@
-// MODIF: Project data — Option A (hardcoded TypeScript arrays)
+// MODIF: Project data — Option A (hardcoded TypeScript arrays) (Traduit en FR)
 export interface Project {
   title: string
   description: string
@@ -9,19 +9,43 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Jeu de voiture',
+    title: 'Plugin mini-jeux minecraft',
     description:
-      'A 2D top-down car racing game with real-time physics, collision detection, and a lap timer. Built in Go with a custom game loop.',
-    tags: ['Go'],
-    github: 'https://github.com/remystinus',
+      "Plugin permettant de joué à trois jeux emblématique de minecraft (Spleef, Blockparty, Tntrun). Différente configuration sont possible pour les minijeux.",
+    tags: ['Java'],
+    github: 'https://github.com/rstinus/voiture-bloc',
     gradient: ['#06b6d4', '#0ea5e9'],
   },
   {
-    title: 'Appli CDM Rugby',
+    title: 'Appli chat instantané',
     description:
-      'Full-stack team management application for a rugby club: player rosters, match scheduling, and live score tracking.',
-    tags: ['React', 'Java', 'SQL'],
-    github: 'https://github.com/remystinus',
+      "Application permettant la communication à plusieurs comme sur un serveur. Différente options d'administration sont possible sur le serveur.",
+    tags: ['C'],
+    github: 'https://github.com/rstinus/cdm-rugby',
+    gradient: ['#10b981', '#059669'],
+  },
+  {
+    title: 'Site utilisateur',
+    description:
+      "Site d'information pour les utilisateurs et participants de nos évènement minecraft.",
+    tags: ['Nuxt', 'tailwind CSS', 'prisma', 'SQL'],
+    github: 'https://github.com/rstinus/SiteWebutilisateur',
+    gradient: ['#10b981', '#059669'],
+  },
+  {
+    title: 'Site connexion SSH',
+    description:
+      "Site permettant la connexion SSH sur le web.",
+    tags: ['React', 'JavaScript', 'SQL'],
+    github: 'https://github.com/rstinus/ssh-web-interface',
+    gradient: ['#10b981', '#059669'],
+  },
+  {
+    title: 'Jeu multi controleur',
+    description:
+      "Application permettant de joué sur un écran avec son téléphone comme manette.",
+    tags: ['Go'],
+    github: 'https://github.com/rstinus/multi-controler-game',
     gradient: ['#10b981', '#059669'],
   },
 ]

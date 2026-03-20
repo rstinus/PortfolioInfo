@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// MODIF: AppFooter — minimal footer with social links
+// MODIF: AppFooter — minimal footer with social links (Traduit en FR)
 const year = new Date().getFullYear()
 
 const socials = [
@@ -25,12 +25,10 @@ const socials = [
   <footer class="border-t border-slate-800 bg-slate-950/80 backdrop-blur-sm">
     <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
 
-      <!-- Copyright -->
       <p class="text-sm text-slate-500 font-mono">
-        &copy; {{ year }} Rémy STINUS — All rights reserved.
+        &copy; {{ year }} Rémy STINUS — Tous droits réservés.
       </p>
 
-      <!-- Social links -->
       <div class="flex items-center gap-4">
         <a
           v-for="social in socials"

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-// MODIF: AppHeader — sticky glassmorphism navbar with logo, nav links, and CV download button
+// MODIF: AppHeader — sticky glassmorphism navbar with logo, nav links, and CV download button (Traduit en FR)
 const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'À Propos', href: '#about' },
+  { label: 'Compétences', href: '#skills' },
+  { label: 'Projets', href: '#projects' },
 ]
 
 const isScrolled = ref(false)
@@ -27,16 +27,14 @@ onMounted(() => {
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
 
-        <!-- Logo -->
         <a
           href="#hero"
           class="font-mono font-bold text-lg text-cyan-400 hover:text-cyan-300 transition-colors tracking-wider"
           aria-label="Retour en haut"
         >
-          R. STINUS<span class="text-slate-500">_</span>
+          Rémy STINUS<span class="text-slate-500">_</span>
         </a>
 
-        <!-- Nav + CTA -->
         <nav class="flex items-center gap-1 sm:gap-2">
           <a
             v-for="link in navLinks"
@@ -55,7 +53,7 @@ onMounted(() => {
             aria-label="Télécharger le CV"
           >
             <Icon name="mdi:download" class="w-4 h-4" />
-            <span class="hidden sm:inline">Download CV</span>
+            <span class="hidden sm:inline">Télécharger CV</span>
             <span class="sm:hidden">CV</span>
           </a>
         </nav>
