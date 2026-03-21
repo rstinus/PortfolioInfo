@@ -32,7 +32,7 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
-    label: 'Infrastructure & Sécu',
+    label: 'Infrastructure & Sécurité',
     icon: 'mdi:shield-check',
     skills: [
       { name: 'SQL / MySQL', icon: 'devicon:mysql', level: 90 },

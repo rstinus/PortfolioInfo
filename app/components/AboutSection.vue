@@ -3,7 +3,7 @@
 const highlights = [
   { icon: 'mdi:school', label: 'BUT Informatique · Université Paris-Saclay (Orsay)', color: 'text-cyan-400' },
   { icon: 'mdi:shield-lock', label: 'Spécialité : Cybersécurité · Systèmes · Réseaux', color: 'text-emerald-400' },
-  { icon: 'mdi:code-braces', label: 'Cœur : Java · C ·Python · React · Nuxt · SQL', color: 'text-blue-400' },
+  { icon: 'mdi:laptop', label: 'Préféré : Java · C ·Python · React · Nuxt · SQL', color: 'text-blue-400' },
 ]
 </script>
 
@@ -28,15 +28,15 @@ const highlights = [
             avec une spécialisation en <span class="text-emerald-400 font-semibold">Cybersécurité, Systèmes et Réseaux</span>.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
-            Je suis passioné par la programmation et notamment dans une perspective de sécurité qu'elle soit en interne ou via internet.
-            Mes activités vont de l'écriture de services sécurisés à l'architecture de frontend réactifs avec Nuxt et React.
-            Je suis convaincu qu'un bon logiciel doit être : rapide, sécurisé et fiable en toutes occasions.
+            Je suis passioné par la programmation et notamment dans une perspective de sécurité qu'elle soit en interne ou via Internet.
+            Mes activités vont de l'écriture de services sécurisés à l'architecture de frontend réactifs avec Nuxt ou React.
+            Je suis convaincu qu'un bon logiciel doit être : rapide, sécurisé et fiable en toutes circonstance.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
             En dehors des cours, j'aime faire de nombreux projets divers et variés de développement, que ce soit logiciel,
             web, ou jeux vidéo.
             Le sport occupe également une place importante dans ma vie, notamment le roller hockey et la course à pied,
-            qui me permettent de me changer mes pour rester performant dans le développement des outils qui me sont nécessaires.
+            qui me permettent de me changer les idées pour rester performant dans le développement des outils qui me sont nécessaires.
           </p>
 
           <ul class="space-y-3 pt-2">
