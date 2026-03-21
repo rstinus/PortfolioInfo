@@ -28,15 +28,15 @@ const highlights = [
             avec une spécialisation en <span class="text-emerald-400 font-semibold">Cybersécurité, Systèmes et Réseaux</span>.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
-            Je suis passioné par la programmation et nottament dans une perspective de sécurité qu'elle soit en interne ou via internet.
+            Je suis passioné par la programmation et notamment dans une perspective de sécurité qu'elle soit en interne ou via internet.
             Mes activités vont de l'écriture de services sécurisés à l'architecture de frontend réactifs avec Nuxt et React.
             Je suis convaincu qu'un bon logiciel doit être : rapide, sécurisé et fiable en toutes occasions.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
             En dehors des cours, j'aime faire de nombreux projets divers et variés de développement, que ce soit logiciel,
             web, ou jeux vidéo.
-            J'ai aussi une forte présence du sport dans ma vie notament le roller hockey et la course à pied qui me permettent
-            de me changer les idées pour toujours développer des outils nécessaire et performant.
+            Le sport occupe également une place importante dans ma vie, notamment le roller hockey et la course à pied,
+            qui me permettent de me changer mes pour rester performant dans le développement des outils qui me sont nécessaires.
           </p>
 
           <ul class="space-y-3 pt-2">
