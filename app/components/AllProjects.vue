@@ -1,6 +1,5 @@
 <script setup lang="ts">
-// MODIF: ProjectsSection — responsive project grid using ProjectCard sub-component (Traduit en FR)
-import { projects } from '~/assets/data/recentProjects'
+import { projects } from '~/assets/data/projects'
 </script>
 
 <template>
@@ -9,13 +8,10 @@ import { projects } from '~/assets/data/recentProjects'
 
       <div class="mb-16 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
         <div>
-          <p class="section-label">
-            <span class="text-emerald-400">//</span> 03. projets
-          </p>
-          <h2 class="section-title">Projets Mis en Avant</h2>
+          <h2 class="section-title uppercase">Mes différents projets</h2>
           <div class="w-16 h-0.5 bg-gradient-to-r from-cyan-400 to-transparent" />
         </div>
-        <!--<NuxtLink to="project">Mes différents projets</NuxtLink>-->
+        <NuxtLink to="/">Retour accueil</NuxtLink>
         <a
           href="https://github.com/rstinus/?tab=repositories"
           target="_blank"
@@ -28,8 +24,8 @@ import { projects } from '~/assets/data/recentProjects'
         </a>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <ProjectCard
+      <div class="grid grid-cols-1 gap-6">
+        <AllProjectCard
           v-for="project in projects"
           :key="project.title"
           :project="project"

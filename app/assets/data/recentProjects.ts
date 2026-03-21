@@ -1,9 +1,10 @@
+// MODIF: Project data — Option A (hardcoded TypeScript arrays) (Traduit en FR)
 export interface Project {
   title: string
   description: string
   tags: string[]
   github?: string
-  gradient: [string, string]
+  gradient: [string, string] // from / to gradient colors for the card header
 }
 
 export const projects: Project[] = [
@@ -35,40 +36,8 @@ export const projects: Project[] = [
     title: 'Site connexion SSH',
     description:
       "Site permettant la connexion SSH sur le web.",
-    tags: ['React', 'JavaScript', 'SQL'],
+    tags: ['React', 'JS', 'SQL'],
     github: 'https://github.com/rstinus/ssh-web-interface',
-    gradient: ['#10b981', '#059669'],
-  },
-  {
-    title: 'Jeu multi controleur',
-    description:
-      "Application permettant de joué sur un écran avec son téléphone comme manette.",
-    tags: ['Go'],
-    github: 'https://github.com/rstinus/multi-controler-game',
-    gradient: ['#10b981', '#059669'],
-  },
-  {
-    title: "Jeux d'aventurier",
-    description:
-      "Application permettant de joué sur un écran avec son téléphone comme manette.",
-    tags: ['Go'],
-    github: 'https://github.com/rstinus/multi-controler-game',
-    gradient: ['#10b981', '#059669'],
-  },
-  {
-    title: 'Création base de donnée',
-    description:
-      "Application permettant de joué sur un écran avec son téléphone comme manette.",
-    tags: ['Go'],
-    github: 'https://github.com/rstinus/multi-controler-game',
-    gradient: ['#10b981', '#059669'],
-  },
-  {
-    title: 'Site internet AdrenalinaPark',
-    description:
-      "Application permettant de joué sur un écran avec son téléphone comme manette.",
-    tags: ['Go'],
-    github: 'https://github.com/rstinus/multi-controler-game',
     gradient: ['#10b981', '#059669'],
   },
 ]

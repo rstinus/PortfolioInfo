@@ -7,6 +7,7 @@ defineProps<{ project: Project }>()
 // Tag color mapping
 const tagColor = (tag: string): string => {
   const map: Record<string, string> = {
+    'Go':           'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
     'Java':         'bg-orange-500/15 text-orange-300 border-orange-500/30',
     'React':        'bg-blue-500/15 text-blue-300 border-blue-500/30',
     'SQL':          'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
@@ -15,7 +16,7 @@ const tagColor = (tag: string): string => {
     'JS':           'bg-yellow-500/15 text-yellow-300 border-yellow-500/30',
     'tailwind CSS': 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
     'prisma':       'bg-slate-500/15 text-slate-300 border-slate-500/30'
-}
+  }
   return map[tag] ?? 'bg-slate-700/50 text-slate-300 border-slate-600'
 }
 </script>
