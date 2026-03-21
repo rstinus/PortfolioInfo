@@ -15,7 +15,7 @@ const highlights = [
         <p class="section-label">
           <span class="text-emerald-400">//</span> 01. à_propos
         </p>
-        <h2 class="section-title uppercase">un peu à propos de moi</h2>
+        <h2 class="section-title uppercase">à propos de moi</h2>
         <div class="w-16 h-0.5 bg-gradient-to-r from-cyan-400 to-transparent" />
       </div>
 
@@ -23,17 +23,17 @@ const highlights = [
 
         <div class="space-y-6">
           <p class="text-slate-300 text-base leading-relaxed">
-            Je suis <span class="text-cyan-400 font-semibold">étudiant en 2ème année d'informatique</span> à l'Université Paris-Saclay
-            (IUT d'Orsay), en préparation d'un <em>Bachelor Universitaire de Technologie</em>
+            Je suis <span class="text-cyan-400 font-semibold">étudiant en 2ème année de BUT informatique</span> à l'Université Paris-Saclay
+            (IUT d'Orsay), en préparation d'un <em>Bachelor Universitaire et Technologique</em>
             avec une spécialisation en <span class="text-emerald-400 font-semibold">Cybersécurité, Systèmes et Réseaux</span>.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
-            Je suis toujours intéressé par de la programmation dans une optique de sécurité que ce soit en interne ou via internet.
-            Mes activités vont de l'écriture de services sécurisés à l'architecture de front-ends réactifs avec Nuxt et React.
-            Je suis convaincu qu'un bon logiciel doit être : rapide, sécurisé et fiable en tout temps.
+            Je suis passioné par la programmation et nottament dans une perspective de sécurité qu'elle soit en interne ou via internet.
+            Mes activités vont de l'écriture de services sécurisés à l'architecture de frontend réactifs avec Nuxt et React.
+            Je suis convaincu qu'un bon logiciel doit être : rapide, sécurisé et fiable en toutes occasions.
           </p>
           <p class="text-slate-400 text-base leading-relaxed">
-            En dehors des cours, j'aime faire de nombreux projets divers et varié de développement, que ce soit logiciel,
+            En dehors des cours, j'aime faire de nombreux projets divers et variés de développement, que ce soit logiciel,
             web, ou jeux vidéo.
             J'ai aussi une forte présence du sport dans ma vie notament le roller hockey et la course à pied qui me permettent
             de me changer les idées pour toujours développer des outils nécessaire et performant.

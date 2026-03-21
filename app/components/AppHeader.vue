@@ -32,7 +32,7 @@ onMounted(() => {
           class="font-mono font-bold text-lg text-cyan-400 hover:text-cyan-300 transition-colors tracking-wider"
           aria-label="Retour en haut"
         >
-          Rémy STINUS<span class="text-slate-500">_</span>
+          Rémy STINUS
         </a>
 
         <nav class="flex items-center gap-1 sm:gap-2">

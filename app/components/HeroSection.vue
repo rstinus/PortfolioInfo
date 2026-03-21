@@ -11,9 +11,9 @@ const stackIcons = [
 
 // Typing effect composable (inline for simplicity)
 const phrases = [
-  'Étudiant BUT informatique.',
-  'Passionné de Cybersécurité.',
-  'Explorateur Systèmes & Réseaux.',
+  'Étudiant BUT informatique',
+  'Passionné de Cybersécurité',
+  'Explorateur Systèmes & Réseaux',
   'Créateur sans limite',
 ]
 
@@ -104,7 +104,6 @@ onUnmounted(() => clearTimeout(timer))
 
       <div class="flex flex-wrap items-center justify-center gap-4 mb-16">
         <a href="#projects" class="btn-cyber px-7 py-3 text-base">
-          <Icon name="mdi:github" class="w-5 h-5" />
           Mes projets récents
         </a>
         <a href="#about" class="btn-ghost px-7 py-3 text-base">
