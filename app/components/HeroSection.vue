@@ -157,11 +157,10 @@ onUnmounted(() => clearTimeout(timer))
         </div>
       </div>
 
-    </div>
-
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-slate-500">
-      <span class="text-s font-mono">défiler</span>
-      <Icon name="mdi:chevron-down" class="w-5 h-5 animate-bounce" />
+      <div class="mt-10 md:mt-15 flex flex-col items-center gap-1 text-slate-500 select-none">
+        <span class="text-xs font-mono tracking-widest">défiler</span>
+        <Icon name="mdi:chevron-down" class="w-5 h-5 animate-bounce" />
+      </div>
     </div>
   </section>
 </template>

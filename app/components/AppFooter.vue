@@ -10,12 +10,12 @@ const socials = [
   },
   {
     label: 'GitHub',
-    href: 'https://github.com/remystinus',
+    href: 'https://github.com/rstinus',
     icon: 'mdi:github',
   },
   {
     label: 'Email',
-    href: 'mailto:remy.stinus@example.com',
+    href: 'mailto:remy.stinus@gmail.com',
     icon: 'mdi:email-outline',
   },
 ]

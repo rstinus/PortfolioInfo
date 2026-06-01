@@ -14,15 +14,14 @@ const highlights = [
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-      <!-- Titre de section ré-aligné à gauche avec le dégradé textuel -->
-      <div class="mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-sm font-mono tracking-wider text-slate-500 mb-2">
           <span class="text-emerald-400">//</span> 01. à_propos
         </p>
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight uppercase">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight">
           Un peu <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">à propos de moi</span>
         </h2>
-        <div class="w-16 h-0.5 bg-gradient-to-r from-cyan-400 to-transparent" />
+        <div class="h-1 w-20 bg-gradient-to-r from-cyan-500 to-emerald-500 mx-auto rounded-full mb-6"></div>
       </div>
 
       <!-- MODIF: Retour à la disposition côte à côte (grid) avec alignement centré verticalement (items-center) -->
@@ -58,9 +57,10 @@ const highlights = [
             </li>
           </ul>
 
-          <a href="#projects" class="btn-ghost group mt-2 w-fit">
+          <a href="#projects" class="btn-ghost group text-xs sm:text-sm px-4 py-2">
+            <Icon name="mdi:view-grid" class="w-4 h-4 text-cyan-400" />
             Voir mes projets
-            <Icon name="mdi:arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1" />
+            <Icon name="mdi:arrow-right" class="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
           </a>
         </div>
 
