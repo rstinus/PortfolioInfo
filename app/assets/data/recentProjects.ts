@@ -1,10 +1,10 @@
-// MODIF: Project data — Option A (hardcoded TypeScript arrays) (Traduit en FR)
 export interface Project {
   title: string
   description: string
   tags: string[]
   github?: string
-  gradient: [string, string] // from / to gradient colors for the card header
+  demo?: string
+  gradient: [string, string]
 }
 
 export const projects: Project[] = [
@@ -30,6 +30,7 @@ export const projects: Project[] = [
       "Site d'information pour les utilisateurs et participants de nos évènement minecraft.",
     tags: ['Nuxt', 'tailwind CSS', 'prisma', 'SQL'],
     github: 'https://github.com/rstinus/SiteWebutilisateur',
+    demo: 'https://projetchronos.fr',
     gradient: ['#10b981', '#059669'],
   },
   {
@@ -38,6 +39,7 @@ export const projects: Project[] = [
       "Site permettant la connexion SSH sur le web.",
     tags: ['React', 'JS', 'SQL'],
     github: 'https://github.com/rstinus/ssh-web-interface',
+    demo: 'https://ssh-connexion.remystinus.fr',
     gradient: ['#10b981', '#059669'],
   },
 ]

@@ -3,6 +3,7 @@ export interface Project {
   description: string
   tags: string[]
   github?: string
+  demo?: string
   gradient: [string, string]
 }
 

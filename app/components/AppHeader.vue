@@ -2,7 +2,7 @@
 // MODIF: AppHeader — sticky glassmorphism navbar with logo, nav links, and CV download button (Traduit en FR)
 const navLinks = [
   { label: 'À Propos', href: '#about' },
-  { label: 'Compétences', href: '#skills' },
+  { label: 'Compétences', href: '#competences' },
   { label: 'Projets', href: '#projects' },
 ]
 

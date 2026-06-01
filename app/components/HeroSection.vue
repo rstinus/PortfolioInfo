@@ -59,7 +59,7 @@ onUnmounted(() => clearTimeout(timer))
 <template>
   <section
     id="hero"
-    class="relative flex items-center justify-center min-h-screen overflow-hidden pt-16"
+    class="relative flex items-center justify-center min-h-screen overflow-hidden pt-16 bg-slate-950"
   >
     <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
       <div
@@ -67,6 +67,7 @@ onUnmounted(() => clearTimeout(timer))
                bg-cyan-500/10 blur-[120px] animate-float"
       >
       </div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(6,182,212,0.05),transparent_50%)]"></div>
       <div
         class="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full
                bg-blue-600/10 blur-[100px] animate-float"
@@ -82,7 +83,16 @@ onUnmounted(() => clearTimeout(timer))
       </div>
     </div>
 
-    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
+      
+      <div class="relative mb-8 w-32 h-32 sm:w-64 sm:h-64 rounded-full p-1 border-2 border-cyan-500/30 shadow-lg shadow-cyan-500/10 hover:border-cyan-400 transition-colors duration-300">
+        <div class="absolute inset-0 rounded-full bg-cyan-500/20 blur-xl opacity-60"></div>
+        <img 
+          src="/Photo.jpg" 
+          alt="Rémy STINUS" 
+          class="relative z-10 w-full h-full object-cover rounded-full"
+        />
+      </div>
 
       <p class="section-label mb-6 animate-fade-in">
         <span class="text-emerald-400">&gt;&gt;</span> Hello World, je suis
@@ -103,13 +113,26 @@ onUnmounted(() => clearTimeout(timer))
       </div>
 
       <div class="flex flex-wrap items-center justify-center gap-4 mb-16">
-        <a href="#projects" class="btn-cyber px-7 py-3 text-base">
-          <Icon name="mdi:github" class="w-5 h-5" />
-          Mes projets récents
+        <a 
+          href="https://dashboard.remystinus.fr" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-cyber group text-xs sm:text-sm px-5 py-2.5"
+        >
+          <Icon name="mdi:view-dashboard" class="w-4 h-4" />
+          Mon Dashboard
+          <Icon name="mdi:arrow-top-right" class="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </a>
-        <a href="#about" class="btn-ghost px-7 py-3 text-base">
-          <Icon name="mdi:account-circle" class="w-5 h-5" />
-          À propos
+
+        <a 
+          href="https://github.com/rstinus/?tab=repositories" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-ghost group text-xs sm:text-sm px-5 py-2.5"
+        >
+          <Icon name="mdi:github" class="w-4 h-4 text-cyan-400" />
+          Mon GitHub
+          <Icon name="mdi:arrow-right" class="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
         </a>
       </div>
 

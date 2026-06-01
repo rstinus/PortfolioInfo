@@ -49,4 +49,14 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Git / GitHub', icon: 'mdi:github', level: 85 },
     ],
   },
+
+  {
+    label: 'Langues',
+    icon: 'mdi:translate',
+    skills: [
+      { name: 'Français (Langue maternelle)', icon: 'twemoji:flag-france', level: 100 },
+      { name: 'Anglais (Professionnel / B2)', icon: 'twemoji:flag-united-kingdom', level: 75 },
+      { name: 'Allemand (A2 / B1)', icon: 'twemoji:flag-germany', level: 60 },
+    ],
+  },
 ]

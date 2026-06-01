@@ -1,10 +1,8 @@
 <script setup lang="ts">
-// MODIF: ProjectCard sub-component — single project card with hover glow
 import type { Project } from '~/assets/data/recentProjects'
 
 defineProps<{ project: Project }>()
 
-// Tag color mapping
 const tagColor = (tag: string): string => {
   const map: Record<string, string> = {
     'Java':         'bg-orange-500/15 text-orange-300 border-orange-500/30',
@@ -71,17 +69,30 @@ const tagColor = (tag: string): string => {
           </span>
         </div>
 
-        <!-- GitHub link -->
-        <a
-          v-if="project.github"
-          :href="project.github"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="`GitHub — ${project.title}`"
-          class="text-slate-500 hover:text-cyan-400 transition-colors"
-        >
-          <Icon name="mdi:github" class="w-5 h-5" />
-        </a>
+        <div class="flex items-center gap-3">
+          <a
+            v-if="project.github"
+            :href="project.github"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="`GitHub — ${project.title}`"
+            class="text-slate-500 hover:text-cyan-400 transition-colors"
+          >
+            <Icon name="mdi:github" class="w-5 h-5" />
+          </a>
+
+          <a
+              v-if="project.demo"
+              :href="project.demo"
+              target="_blank"
+              rel="noopener noreferrer"
+              :aria-label="`Voir le site ${project.title}`"
+              title="Voir le site en ligne"
+              class="text-slate-500 hover:text-emerald-400 transition-colors"
+            >
+            <Icon name="mdi:open-in-new" class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
   </article>
